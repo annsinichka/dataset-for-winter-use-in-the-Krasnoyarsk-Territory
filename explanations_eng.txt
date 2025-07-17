@@ -1,0 +1,40 @@
+Name	Comment
+Municipal District	Top-level municipalities of Krasnoyarsk Krai based on the HSE Geoportal
+Regional and intermunicipal public roads (km)	Regional and intermunicipal roads based on OSM data, corrected using NEXTGIS data, calculated per municipality
+Unpaved roads (km)	Roads with OSM tag surface=unpaved, calculated per municipality
+Unclassified roads (km)	Roads with OSM tags highway=unclassified and highway=service, calculated per municipality
+Winter roads (km)	"Roads with OSM tags highway=winter_road, ice_road=yes; FGIS SKDF data; calculated per municipality"
+Watercourses (km)	Data from OSM tag waterway=river, calculated per municipality
+Water bodies (km?)	Data from OSM tags natural=water and “Rivers + lake centerlines” from Natural Earth, calculated per municipality
+Forest area (km?)	Data extracted using a JavaScript script in GEE from the Hansen Global Forest Change layer (2020)
+Average elevation (m)	"Data calculated using zonal statistics from the GTOPO30 DEM; median values"
+Average slope (°)	"Slope calculated using a Python script and averaged via zonal statistics from GTOPO30 DEM; median values"
+Distance to nearest settlement (km)	"Distance from winter roads to settlements using “Distance to Nearest Hub” algorithm; median per municipality based on zonal statistics"
+Distance from winter road to watercourse (km)	"Distance from winter roads to watercourses using “Distance to Nearest Hub” algorithm; median per municipality via zonal statistics"
+Surface type (1–17)	Land cover classes (LC_Type1) extracted from GEE and calculated using a Python script as the most frequent within each municipality
+Permafrost area (km?)	Area of permafrost zones within each municipality based on HSE data
+Swamp area (km?)	Areas tagged as natural=wetland in OSM, calculated per municipality
+Average snow cover height (cm)	Snow depth data from the Agroclimatic Atlas raster, calculated as median
+Length of oil and gas pipelines (km)	Length of oil and gas pipelines per municipality based on ArcGIS data
+Length of power lines (km)	Data from OSM tag power=line, calculated per municipality
+Power lines and road crossings (count)	Crossings calculated pointwise using Python script in QGIS
+Winter roads and power lines crossings (count)	Crossings calculated pointwise using Python script in QGIS
+Winter roads and watercourses crossings (count)	Crossings calculated pointwise using Python script in QGIS
+Power lines and winter roads crossings (count)	Crossings calculated pointwise using Python script in QGIS
+Oil/gas pipelines and road crossings (count)	Crossings calculated pointwise using Python script in QGIS
+Oil/gas pipelines and winter roads crossings (count)	Crossings calculated pointwise using Python script in QGIS
+Number of winter roads	Tabular data summary from krudor.ru, parsed automatically using Python and BeautifulSoup
+Name (text)	Tabular data summary from krudor.ru, parsed automatically using Python and BeautifulSoup
+Opening date	Tabular data summary from krudor.ru, parsed automatically using Python and BeautifulSoup
+Closing date	Tabular data summary from krudor.ru, parsed automatically using Python and BeautifulSoup
+Length (km)	Tabular data summary from krudor.ru, parsed automatically using Python and BeautifulSoup
+Count	Tabular data summary from krudor.ru, parsed automatically using Python and BeautifulSoup
+Crossing name	Tabular data summary from krudor.ru, parsed automatically using Python and BeautifulSoup
+Opening date (crossing)	Tabular data summary from krudor.ru, parsed automatically using Python and BeautifulSoup
+Load capacity (tons)	Tabular data summary from krudor.ru, parsed automatically using Python and BeautifulSoup
+Closing date (crossing)	Tabular data summary from krudor.ru, parsed automatically using Python and BeautifulSoup
+Population density (people/km?)	Total population divided by the area of the municipality
+Total permanent population (people)	Data from Rosstat statistics
+Urban permanent population (people)	Data from Rosstat statistics
+Rural permanent population (people)	Data from Rosstat statistics
+Urbanization rate (%)	Urbanization calculated using the formula: (Urban permanent population / Total permanent population) ? 100%

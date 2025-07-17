@@ -1,0 +1,13 @@
+Source	URL	Layers	Data Type	Spatial Resolution	Access Date	Last Update Date	Explanation
+OSM	https://www.openstreetmap.org	Roads (including seasonal), Power Lines, Swamps, Watercourses, Water Bodies	Vector	Multi-scale	04.01.2024.	07.10.2025.	Crowdsourced project adjusted based on regional data from FGIS SKDF and KRUDOR
+NaturalEarth	https://www.naturalearthdata.com/	Watercourses	Vector	1:10m	04.01.2024.	04.01.2025.	Crowdsourced project adjusted based on regional OSM data
+HSE Geoportal	https://geoportal.hse.ru/portal/apps/sites/#/geodata/	Krasnoyarsk Krai and Municipalities, Cryolithozone	Vector	Multi-scale	02/20/2025.	02/20/2025.	Two different projects
+GEE (EC JRC Global Forest Cover 2020)	https://developers.google.com/earth-engine/datasets/catalog/JRC_GFC2020_V2	Forest Areas	Raster	10x10 m	04.01.2025,	01/15/2025.	Data on forest area within municipalities
+Road Funds Control System	https://ρκδτ.πτ/	Roads of all types	Vector, Tabular	Multi-scale	04.01.2025,	07.10.2025.	Data on roads in the region used to correct OSM geometry
+NextGIS	https://data.nextgis.com/ru/region/custom/msrd/	Roads of all types	Vector	Multi-scale	03.07.2025,	03.07.2025.	"Data on roads in the region used to correct OSM geometry; a reliable source for the Russian Federation"
+Agroecological Atlas of Russia and Neighboring Countries	https://agroatlas.ru/ru/content/Climatic_maps/Snow/Snow_maxim/index.html	Snow Depth	Raster	10x10 km	04.01.2025,	03/14/2005.	Data on snow depth as of 03/14/2005
+Krasnoyarsk Krai State Road Administration	https://krudor.ru/	Winter Roads and Ice Crossings	Tabular	—	12.01.2024,	07.10.2025.	Official data on winter roads and ice crossings in the region
+GTOPO30	https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-global-30-arc-second-elevation-gtopo30	Elevation and Slope	Raster	30x30 arc-seconds	04.01.2025,	07/16/2025.	DEM data on elevation and slope steepness
+GEE (MCD12Q1.061 MODIS Land Cover Type Yearly Global 500m)	https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD12Q1	Land Cover Type	Raster	500x500 m	04.01.2025/	07/16/2025.	Land cover classification based on MODIS
+Global Oil and Gas Infrastructure Database	https://hub.arcgis.com/datasets/OSRL::pipelines/explore?location=50.023689%2C-71.488738%2C3.00	Oil and Gas Pipelines	Vector	Multi-scale	03/23/2023.	03/23/2023.	Data on oil and gas infrastructure in the region
+Federal State Statistics Service (Krasnoyarsk Krai, Republic of Khakassia, and Republic of Tyva)	https://24.rosstat.gov.ru/	Population (total, urban, rural, urbanization, population density)	Tabular	—	07.04.2025.	07.04.2025.	"""Estimated resident population as of January 1, 2025, and average for 2024, by municipal districts and urban districts of Krasnoyarsk Krai"""
